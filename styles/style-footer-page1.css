@@ -1,0 +1,49 @@
+footer{
+    border-top: 0.01em solid rgba(255, 255, 255, 0.24);
+}
+
+.informacao{
+    background-color: #040404e8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.informacao > img{
+    height: 40px;
+    margin: 20px;
+}
+
+.info-creditos{
+    display: flex;
+    justify-content: center;
+}
+
+.info-creditos h1{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.info-creditos p{
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.info{
+    margin: 0px 20px 0px 20px;
+}
+
+.creditos{
+    text-align: center;
+}
+
+.creditos p{
+    font-size: 12px;
+    margin: 10px;
+    font-weight: 300;
+}

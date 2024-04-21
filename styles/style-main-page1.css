@@ -1,0 +1,40 @@
+main{
+    background-image: url(../img/main/backimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+main > section{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.banner-filme{
+    margin: 90px 30px 10px 30px;
+}
+
+.banner-intor > img{
+    height: 370px;
+}
+
+.banner-intor{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-rodape{
+    display: flex;
+    justify-content: right;
+    margin: 10px 20px 0px 0px;
+}
+
+.pipoca{
+    height: 35px;
+    margin: 0px 5px 0px 0px;
+}
+
+.sipnose{
+    height: 35px;
+}
