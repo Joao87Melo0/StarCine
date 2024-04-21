@@ -1,0 +1,89 @@
+main{
+    background-image: url(../../img/main/backimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1{
+    color: White;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 80px;
+}
+
+.precos{
+    margin: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Sala{
+    background-color: #1E1E1E;
+    width: 290px;
+    border-radius: 7px;
+    overflow: hidden;
+    margin: 30px;
+}
+
+.StarSala{
+    background-color: #9A0404;
+    text-align: center;
+    padding: 5px;
+}
+
+.VipSala{
+    background-color: #2400FF;
+    text-align: center;
+    padding: 5px;
+}
+
+.GoldSala{
+    background-color: #FFA800;
+    text-align: center;
+    padding: 5px;
+}
+
+.Sala p{
+    font-weight: 100;
+}
+
+.Meia{
+    margin-left: 55px;
+}
+
+.opcao{
+    background-color: #484646;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.opcao a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+    transition: 1s;
+}
+
+.opcao a:hover{
+    font-weight: 300;
+    transition: 1s;
+}
+
+.Sala h2{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
