@@ -1,0 +1,83 @@
+body{
+    height: 90%;
+}
+main{
+    background-image: url(../../img/login/Back-login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main section{
+    background-color: rgba(0, 0, 0, 0.96);
+    border-radius: 20px;
+    margin: 40px;
+}
+
+section div{
+    margin: 30px 100px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+}
+
+div h1{
+    color: white;
+    align-self: center;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+div p{
+    color: white;
+    font-weight: 300;
+    font-size: 12px;
+    margin-left: 8px;
+    margin-top: 15px;
+    transition: 0.1s;
+}
+
+div a{
+    color: rgba(255, 255, 255, 0.438);
+}
+
+section input{
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: #272323;
+}
+
+div input:focus{
+    border: none;
+    outline: none;
+}
+
+section a p:hover{
+    color: rgba(255, 255, 255, 0.562);
+}
+
+#esqueci-senha{
+    align-self: end;
+    margin: 2px 0px 15px 0px;
+}
+
+#nao-conta{
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+section button{
+    background-color: hsla(0, 86%, 49%, 0.44);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 0px;
+    border-radius: 8px;
+}
